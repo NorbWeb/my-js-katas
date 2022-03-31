@@ -13,5 +13,12 @@ Add you own tests.
 */
 
 // TODO add your code here
+abbreviate = (text) => {
+  const firstLetters = text
+    .split(" ")
+    .map((element) => element[0])
+    .join(".");
+  return firstLetters;
+};
 
 module.exports = abbreviate;

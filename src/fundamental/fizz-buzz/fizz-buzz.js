@@ -8,7 +8,12 @@ Create a function `fizzBuzz` which takes a number as parameter, and returns:
 */
 
 // TODO add your code here
-
+fizzBuzz = (num) => {
+if (num % 3 === 0 && num % 5 === 0) {return "FizzBuzz"}
+else if (num % 5 === 0) { return "Buzz"}
+else if (num % 3 === 0) { return "Fizz"}
+else {return num.toString()}
+};
 // Begin of tests
 const assert = require("assert");
 

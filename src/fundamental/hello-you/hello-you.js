@@ -8,7 +8,7 @@ If the argument is empty, null or undefined, return "Hello World":
 */
 
 // TODO add your code here
-
+sayHello = (element) => (element ? "Hello " + element : "Hello World");
 // Begin of tests
 const assert = require("assert");
 

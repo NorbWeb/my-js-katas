@@ -16,4 +16,16 @@ Don't mutate the parameter.
 
 // TODO add your code here
 
+inverse = (array) => {
+  if (array === [] || array === null) {
+    return [];
+  } else {
+    let inverseArray = [];
+    array.forEach((element) => {
+      return inverseArray.push(-element);
+    });
+    return inverseArray;
+  }
+};
+
 module.exports = inverse;

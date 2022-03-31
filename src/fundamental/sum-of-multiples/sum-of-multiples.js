@@ -8,9 +8,20 @@ Note: If the number is a multiple of both 3 and 5, only count it once.
 */
 
 // TODO add your code here
-
+sum = (num) => {
+  let finalSum = 0;
+  for (let i = 0; i < num; i++) {
+    if (i % 3 === 0) {
+      finalSum += i;
+    } else if (i % 5 === 0) {
+      finalSum += i;
+    }
+  }
+  return finalSum;
+};
 // Begin of tests
 const assert = require("assert");
+const { CLIENT_RENEG_LIMIT } = require("tls");
 
 assert.strictEqual(typeof sum, "function");
 assert.strictEqual(sum.length, 1);
