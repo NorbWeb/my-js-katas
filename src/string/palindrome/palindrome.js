@@ -19,4 +19,6 @@ Add you own tests.
 
 // TODO add your code here
 
+isPalindrome = (word) => {};
+
 module.exports = isPalindrome;
