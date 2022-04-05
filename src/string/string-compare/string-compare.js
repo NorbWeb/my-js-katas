@@ -17,5 +17,19 @@ Add you own tests.
 */
 
 // TODO add your code here
+compare = (stringA, stringB) => {
+  let a = stringA.split("");
+  let b = stringB.split("");
+  let count = 0;
+  if (a.length !== b.length || a === null || b === null) {
+    return -1;
+  }
+  for (let i = 0; i < a.length; i++) {
+    if (a[i] === b[i]) {
+      count++;
+    }
+  }
+  return count;
+};
 
 module.exports = compare;

@@ -2,7 +2,7 @@
 
 ## Katas
 
-### Fundamental
+### Fundamental <!-- solved -->
 
 - [hello-you](./src/fundamental/hello-you/hello-you.js)
 - [fizz-buzz](./src/fundamental/fizz-buzz/fizz-buzz.js)
@@ -10,14 +10,14 @@
 - [math-min](./src/fundamental/math-min/math-min.js)
 - [math-pow](./src/fundamental/math-pow/math-pow.js)
 
-### Array
+### Array <!-- solved -->
 
 - [social-like](./src/array/social-like/social-like.js)
 - [found-min](./src/array/found-min/found-min.js)
 - [sum-of-odds](./src/array/sum-of-odds/sum-of-odds.js)
 - [inverse-values](./src/array/inverse-values/inverse-values.js)
 
-### String
+### String <!-- solved -->
 
 - [count-letters](./src/string/count-letters/count-letters.js)
 - [palindrome](./src/string/palindrome/palindrome.js)
@@ -25,7 +25,7 @@
 - [abbreviate-names](./src/string/abbreviate-names/abbreviate-names.js)
 - [string-compare](./src/string/string-compare/string-compare.js)
 
-### Array functions
+### Array functions <!-- solved -->
 
 - [only-odds](./src/array-functions/only-odds/only-odds.js)
 - [pascal-case](./src/array-functions/pascal-case/pascal-case.js)

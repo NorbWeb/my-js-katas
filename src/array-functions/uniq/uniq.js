@@ -12,6 +12,11 @@ Bonus : do not use a loop
 
 // TODO add your code here
 
+uniq = (sequence) => {
+  let newArray = sequence.filter((element, index, array) => {return index === 0 || element !== array[index - 1]});
+  return newArray;}
+
+
 // Begin of tests
 const assert = require("assert");
 

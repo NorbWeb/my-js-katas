@@ -12,7 +12,9 @@ Don't mutate the parameter.
 */
 
 // TODO add your code here
-
+pascalCase = (string) => {
+  return string.toLowerCase().split(" ").map(e => e.charAt(0).toUpperCase() + e.slice(1)).join("");
+}
 // Begin of tests
 const assert = require("assert");
 

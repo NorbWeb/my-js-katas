@@ -19,6 +19,17 @@ Add you own tests.
 
 // TODO add your code here
 
-isPalindrome = (word) => {};
+isPalindrome = (word) => {
+  if (word === null || word === "") {
+    return true;
+  } else {
+    let wordReverse = word.split("").reverse().join("").toLowerCase();
+  }
+  if (word === wordReverse) {
+    return true;
+  } else {
+    return false;
+  }
+};
 
 module.exports = isPalindrome;

@@ -9,6 +9,15 @@ Don't mutate the parameter.
 
 // TODO add your code here
 
+odd = (array) => {
+  let newArray = [];
+  array.forEach(function(element) {
+    if (element % 2 !== 0) {
+      newArray.push(element);
+    }
+  });
+  return newArray;}
+
 // Begin of tests
 const assert = require("assert");
 

@@ -28,6 +28,13 @@ Don't mutate the parameter.
 
 // TODO add your code here
 
+censor = (array, forbiddenWord) => {
+  if(forbiddenWord){
+    let forbiddenWordAsteriks = forbiddenWord.replace(/[a-z]/gi, "*");
+    return array.map(e => e.replace(RegExp("\\b"+forbiddenWord+"\\b"), forbiddenWordAsteriks));
+  }
+};
+
 // Begin of tests
 const assert = require("assert");
 
